@@ -1,7 +1,7 @@
 defmodule Information do
   @type t :: %__MODULE__{
-          objects_count: pos_integer,
-          objects_with_error_count: pos_integer,
+          objects_count: non_neg_integer,
+          objects_with_error_count: non_neg_integer,
           valid_objects: list
         }
 
